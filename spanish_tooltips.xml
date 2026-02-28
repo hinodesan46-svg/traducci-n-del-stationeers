@@ -1,0 +1,212 @@
+﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Name>Spanish</Name>
+    <Code>ES</Code>
+    <Font>font_spanish</Font>
+    <ScreenSpaceToolTips>
+        <Record>
+            <Key>StatusIconToxinName</Key>
+            <Value>Toxinas</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconToxinDesc</Key>
+            <Value>Nivel de toxicidad actual</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconToxinWarning</Key>
+            <Value>Necesita atención</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconHydrationDesc</Key>
+            <Value>La hidratación está baja</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconHydrationKey</Key>
+            <Value>Hidratación Baja</Value>
+        </Record>
+        <Record>
+            <Key>HydrationCaution</Key>
+            <Value>Precaución de Hidratación</Value>
+        </Record>
+        <Record>
+            <Key>HydrationCritical</Key>
+            <Value>Hidratación Crítica</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconToxinCritical</Key>
+            <Value>En un estado crítico</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconOxygenName</Key>
+            <Value>Suministro de Oxígeno</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconOxygenDesc</Key>
+            <Value>La atmósfera que estás respirando está dañando tus pulmones.</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconOxygenWarning</Key>
+            <Value>La bombona de oxígeno del traje está baja y necesita atención</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconOxyegnCritical</Key>
+            <Value>La bombona de oxígeno del traje está crítica, reemplázala</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconPressureName</Key>
+            <Value>Presión Interna</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconPressureDesc</Key>
+            <Value>Nivel de presión actual, revisa la presión del traje</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconPressureWarning</Key>
+            <Value>La presión del traje está baja</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconPressureCritical</Key>
+            <Value>La presión del traje está críticamente baja</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconTemperatureName</Key>
+            <Value>Temperatura Interna</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconTemperatureDesc</Key>
+            <Value>Temperatura actual dentro de tu traje</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconTempuratureWarning</Key>
+            <Value>Muestra el Nivel de Toxicidad Actual</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconTempuratureCritical</Key>
+            <Value>Muestra el Nivel de Toxicidad Actual</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconLeakingName</Key>
+            <Value>Fugas del Traje</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconPowerName</Key>
+            <Value>Suministro de Energía del Traje</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconPowerDesc</Key>
+            <Value>La energía está baja</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconGravityName</Key>
+            <Value>Gravedad Cero</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconJetpackName</Key>
+            <Value>Jetpack Activo</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconClimbingName</Key>
+            <Value>Escalando</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconLightName</Key>
+            <Value>Alternar Luz</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconInternalsName</Key>
+            <Value>Alternar Casco Abierto/Cerrado</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconHandPowerName</Key>
+            <Value>Alternar Objeto en Mano On/Off</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconInSlotName</Key>
+            <Value>Estás dentro de una ranura</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconHungerName</Key>
+            <Value>Hambre Actual</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconStunName</Key>
+            <Value>Porcentaje de Aturdimiento</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconAirTankName</Key>
+            <Value>Capacidad Actual de la bombona de Aire</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconJetpackWarningName</Key>
+            <Value>Propelente del Jetpack</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconJetpackWarningDesc</Key>
+            <Value>El propelente está bajo</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconFilterName</Key>
+            <Value>Capacidad del Filtro</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconWasteName</Key>
+            <Value>Capacidad de Desechos</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconWasteDesc</Key>
+            <Value>La bombona de desechos está casi llena</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconHealthName</Key>
+            <Value>Salud Actual</Value>
+        </Record>		
+        <Record>
+            <Key>StatusIconHealthDesc</Key>
+            <Value>Salud Baja</Value>
+        </Record>		
+        <Record>
+            <Key>StatusIconHydrationName</Key>
+            <Value>Hidratación Actual</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconUnconsciousName</Key>
+            <Value>Inconsciente</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconMoodName</Key>
+            <Value>Estado de Ánimo Actual</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconHygieneName</Key>
+            <Value>Higiene Actual</Value>
+        </Record>
+        <Record>
+            <Key>DeconstructCanisterFull</Key>
+            <Value>No se puede deconstruir. La bombona necesita estar vacía</Value>
+        </Record>		
+        <Record>
+            <Key>StatusIconLeavingAreaName</Key>
+            <Value>Abandonando el Área de la Misión</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconLeavingAreaDesc</Key>
+            <Value>Fuera de los límites, da la vuelta</Value>
+        </Record>
+        <!-- Registros añadidos desde la versión inglesa -->
+        <Record>
+            <Key>StatusIconRespawnStressName</Key>
+            <Value>Estrés de Reaparición</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconRespawnStressDesc</Key>
+            <Value>Afecta la velocidad de las acciones</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconCoolantName</Key>
+            <Value>Temperatura del tanque de refrigerante</Value>
+        </Record>
+        <Record>
+            <Key>StatusIconCoolantDesc</Key>
+            <Value>La temperatura del refrigerante está demasiado alta</Value>
+        </Record>
+    </ScreenSpaceToolTips>
+</Language>

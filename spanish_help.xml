@@ -1,0 +1,715 @@
+﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>ES</Code>
+  <HelpPage>
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                 MASTER PAGES            |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->  
+
+    <StationpediaPage>
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+      <Key>Home</Key>
+      <Title>Inicio</Title>
+      <Text>
+      </Text>
+    </StationpediaPage>
+    <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
+    <StationpediaPage>
+      <Key>Search</Key>
+      <Title>Búsqueda</Title>
+      <Text>
+      </Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>AirlockDevicePage</Key>
+      <Title>Dispositivos de esclusa</Title>
+      <Text>{LIST_OF_AIRLOCK_DEVICES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>LogicUnitPage</Key>
+      <Title>Unidades de lógica</Title>
+      <Text>{LIST_OF_LOGIC_UNITS}{LIST_OF_MOTHERBOARD}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>CartridgePage</Key>
+      <Title>Cartuchos</Title>
+      <Text>Estos se pueden añadir a {THING:ItemTablet} o {THING:ItemAdvancedTablet} para realizar diferentes funciones de diagnóstico.
+{LIST_OF_CARTRIDGES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>StructurePage</Key>
+      <Title>Estructuras</Title>
+      <Text>{LIST_OF_STRUCTURES}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ElectronicPage</Key>
+      <Title>Electrónica</Title>
+      <Text>{LIST_OF_ELECTRONICS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>OrganicPage</Key>
+      <Title>Orgánicos</Title>
+      <Text>{LIST_OF_ORGANICS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>AtmosphericPage</Key>
+      <Title>Atmósfera</Title>
+      <Text>{LIST_OF_ATMOSPHERICS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>RubbishPage</Key>
+      <Title>Basura</Title>
+      <Text>{LIST_OF_ELECTRONICS}</Text>
+    </StationpediaPage> 
+    <StationpediaPage>
+      <Key>FurniturePage</Key>
+      <Title>Muebles</Title>
+      <Text>{LIST_OF_FURNITURES}</Text>
+    </StationpediaPage> 
+    <StationpediaPage>
+      <Key>LorePage</Key>
+      <DisplayFilter>Lore</DisplayFilter>
+      <Title>Facciones</Title>
+      <Text>{LIST_OF_FACTIONS}</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>FabricatorPage</Key>
+      <Title>Fabricadores</Title>
+      <Text>Estos son estructuras alimentadas que se pueden usar para fabricar cosas que necesitas en el juego. Normalmente requieren {LINK:IngotPage;lingotes} para proporcionar los {LINK:ReagentPage;reactivos} que necesitan para hacer cosas.
+{LIST_OF_FABRICATORS}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>DevicePage</Key>
+      <Title>Dispositivos</Title>
+      <Text>Estas son estructuras, generalmente alimentadas, que tienen funciones especializadas incluyendo lógica, atmósfera, y más. Se construyen de la misma manera que otras estructuras.
+{LIST_OF_DEVICES}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>ImportExportPage</Key>
+      <Title>Importar/Exportar y Conductos</Title>
+      <Text>Estas son estructuras, generalmente alimentadas, que pueden recibir y enviar otros objetos, o ayudar en esto. La mayoría tienen funciones especializadas incluyendo {LINK:LogicUnitPage;lógica}, {LINK:AtmosphericPage;atmósfera}, y más. Se construyen de la misma manera que otras estructuras.
+{LIST_OF_IMPORTEXPORT}
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SmeltingPage</Key>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Title>Fundición</Title>
+      <Text>Una vez que tengas {LINK:OrePage;mineral}, necesitas convertirlo en {LINK:IngotPage;lingotes} para que puedas usar sus {LINK:ReagentPage;reactivos}. La fundición a menudo producirá {LINK:GasPage;gases}. Esto ocurre ya sea en el {THING:StructureArcFurnace} (para recetas simples) y el {THING:StructureFurnace} para aleaciones más complicadas, y finalmente en el {THING:StructureAdvancedFurnace} para aleaciones muy complicadas {LINK:SuperAlloyPage;Superaleaciones}. Para las aleaciones complejas, necesitarás lograr mezclas con proporciones perfectas, {LINK:TemperaturePage;Temperatura} y {LINK:PressurePage;Presión}.
+      </Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>MiningPage</Key>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Title>Minería</Title>
+      <Text>Puedes extraer {LINK:OrePage;mineral} usando un {THING:ItemMiningDrill}. Si llevas un {THING:ItemMiningBelt} el {LINK:OrePage;mineral} se colocará automáticamente en él.
+      </Text>
+    </StationpediaPage>
+<StationpediaPage>
+      <Key>TradingPage</Key>
+	  <DisplayFilter>Guides</DisplayFilter>
+      <Title>Comercio</Title>
+      <Text>El comercio es una parte esencial de la existencia de los {LINK:Stationeers;Stationeers}, especialmente en mundos más extremos, donde los nuevos cadetes pueden enfrentarse al desafío de sobrevivir sin asistencia al principio.
+
+Hay tres niveles distintos de contactos. Estos contactos tienen dificultades crecientes para ser contactados y permanecen alrededor de unos 20 minutos antes de irse y ser reemplazados por otro, por lo que tendrás que buscar los contactos más difíciles si quieres consultar a muchos comerciantes.
+
+Los contactos deben resolverse mediante una antena antes de que pueda determinar con qué precisión está apuntado al contacto. El tiempo de resolución está determinado por la potencia de la antena multiplicada por su alineación, sobre la capacidad de resolución esperada del contacto. Si el contacto se está resolviendo demasiado lentamente, probablemente indique que no estás cerca del objetivo en absoluto, y deberías probar un ángulo muy diferente. Alternativamente, el contacto podría tener una capacidad de resolución esperada muy alta, y tu antena actual simplemente no es lo suficientemente grande para resolverlo en un tiempo razonable. El proceso de resolución solo usa el 10% de la potencia real a la que está configurada tu antena.
+
+Una vez que hayas resuelto la posición de los contactos, podrás presionar el botón de interrogar. Similar a la resolución, necesitarás dirigir suficiente potencia al contacto. El diálogo de interrogación te informará sobre los cálculos actuales. La interrogación tiene un mínimo estricto, y si la antena no está bien apuntada o la potencia es demasiado baja, no podrás iniciar el proceso. La interrogación también tiene un requisito de tiempo, con contactos más difíciles que toman significativamente más tiempo, por lo que querrás usar potencias altas para asegurarte de terminar antes de que el comerciante se mueva. Una vez completada la interrogación, podrás aterrizar al comerciante como antes.
+
+{LIST_OF_TRADING_DEVICES}
+      </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+      <Key>ConstructionPage</Key>
+      <Title>Construcción</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>{HEADER:Empezando}
+Normalmente usarás {LINK:KitPage;kits} para iniciar la construcción y luego una variedad de {LINK:ToolPage;Herramientas} y {LINK:ResourcePage;Recursos} para completarla. Presta atención a cuántos de tu kit se requieren para construir lo que has seleccionado, ya que algunas estructuras requieren más de uno de la pila para ser consumidas. Para algunos kits tendrás múltiples opciones, usa la {COLORRED:Rueda del Ratón} para cambiar la opción actual que estás buscando construir.
+
+{HEADER:Estados de construcción}
+Algunas estructuras tendrán múltiples estados de construcción que requieren combinaciones diferentes para completarlas. En los consejos de herramientas podras ver qué combinación necesitas para completar la estructura. A veces necesitarás tener dos objetos, uno en cada mano, para completar un estado de construcción. Algunas herramientas necesitarán ser encendidas primero, lo cual se puede hacer presionando {KEY:ToggleHandPower} mientras esté en tu mano activa.
+
+{HEADER:Consejos de Herramientas}
+Si miras directamente una estructura que está incompleta, obtendrás información sobre lo que necesitas hacer para completarla. Si tienes una {LINK:ToolPage;Herramienta} en tu mano y no es la {LINK:ToolPage;Herramienta} correcta, aparecerá un consejo diciéndote qué necesitarías usar para desconstruirla.
+
+{HEADER:Presión}
+Al construir, es importante notar que la presión se mide como una diferencial. La mayoría de las estructuras tienen un límite de presión de 200kPa: si la diferencia entre el interior y el exterior es mayor que eso, tienes problemas.
+      </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+      <Key>ReagentPage</Key>
+      <Title>Reactivos</Title>
+      <Text>Estos son cantidades químicas de ciertos tipos.
+      {LIST_OF_REAGENTS}
+      </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+      <Key>MusicPage</Key>
+      <Title>Haciendo Música</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>El {LINK:ODA;ODA} no aprueba bandas sonoras ni otras distracciones.
+Como tal, los {LINK:Stationeers;Stationeers} han tenido que crear su propio acompañamiento musical para el exigente trabajo de construir y mantener infraestructura fuera del mundo.
+Central a este pasatiempo es el secuenciador de pasos, que permite a los Stationeers secuenciar patrones musicales cortos o bucles.
+
+{HEADER:DIY MUSIC - EMPEZANDO}
+
+1: Conecta 8 {THING:DeviceStepUnit}s a tu secuenciador de pasos a través del puerto de datos en el lado izquierdo.
+
+2: Etiqueta cada unidad de paso, luego asigna las unidades de paso del 1 al 8 en el secuenciador usando el destornillador.
+
+3: Selecciona el altavoz de salida (por ejemplo, {THING:PassiveSpeaker}) donde el secuenciador reproducirá los sonidos. Este debe estar conectado a la red lógica en el lado derecho del secuenciador.
+
+4: Coloca un {THING:StopWatch} y usa un {THING:StructureLogicReader} y un {THING:StructureLogicWriter} para escribir el tiempo en la variable de tiempo del secuenciador.
+
+5: Establece el BPM en el secuenciador usando un {THING:StructureLogicDial} y un {THING:StructureLogicWriter} para escribir en la variable BPM del secuenciador. Un BPM más alto reproducirá la secuencia más rápido.
+
+6: Inserta un cartucho de sonido de tu elección y selecciona qué variante de sonido deseas reproducir presionando los botones de flecha ubicados arriba y abajo de la ranura del cartucho de sonido.
+
+7: Elige el tono de los sonidos a reproducir ajustando el dial en cada una de tus 8 unidades de paso al tono deseado. Con los tambores, cada nota es un sonido de tambor diferente. Puedes probar tus sonidos presionando el botón de activación en cada unidad de paso (con el secuenciador inactivo).
+
+8: Diviértete con el {THING:DeviceLfoVolume}.
+
+9: Finalmente, activa el secuenciador, Vibeoneer.
+      </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+      <Key>TemperatureControlPage</Key>
+      <Title>Control de Temperatura</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+<Text>Para controlar la temperatura de un sistema, debemos agregar calor para aumentar su temperatura o eliminar calor para enfriarlo, esa es la idea básica del control de temperatura. Los dispositivos que logran este objetivo para ti son {THING:ItemWallHeater}, {THING:ItemWallCooler}, {THING:StructurePipeRadiator} y {THING:StructureAirConditioner}.
+
+NOTA: Hay muchos métodos de control de temperatura. Algunos no involucran ninguno de los dispositivos mencionados. Aquí, cubrimos lo básico.
+
+Es importante entender tu entorno antes de instalar cualquier tipo de control de temperatura. El volumen de gas o líquido es un factor importante al elegir tu método de control de temperatura. Un {THING:StructureTankSmall} puede contener hasta 6000L, mientras que un {THING:StructureTankBig} puede contener hasta 50,000L, lo que significa que si ambos están llenos, el tanque pequeño reaccionará más rápido a los cambios de temperatura. Una sala es un espacio que puede contener una cierta cantidad de gas. Cuanto más grande sea, más volumen podrá contener, por lo que las mismas reglas generalmente se aplican a tanques y salas.
+
+{HEADER:RED DE TUBERÍAS}
+Una red de tuberías es uno o más segmentos de tuberías conectados entre sí sin separación en ningún punto. Una red de tuberías comparte la misma atmósfera en toda la tubería, sin importar cuán grande sea. Si cambias la temperatura o la presión en un extremo de la red, el extremo más lejano experimentará el mismo cambio de inmediato sin demora.
+
+Agregar dispositivos a una red puede dividirla en dos redes diferentes. Por ejemplo, agregar una {THING:StructureVolumePump} a una red de tuberías dividirá la red en dos redes: una antes de la bomba y otra después de ella.
+
+Usa el {THING:ItemTablet} con el {THING:CartridgeAtmosAnalyser} instalado para ver información sobre el contenido de cualquier red de tuberías.
+
+{HEADER:RADIADORES}
+Fabricado en la dobladora de tuberías, un {THING:StructurePipeRadiator} te ayudará a intercambiar calor entre las tuberías y su entorno. Funcionan tanto en tuberías aisladas como en tuberías, así como en variantes líquidas.
+
+En condiciones normales, un segmento de tubería intercambiará calor con su entorno, pero agregar un radiador a ese segmento de tubería acelerará mucho el proceso. Un segmento de tubería continuará intercambiando calor con la atmósfera circundante hasta que ambos se igualen en temperatura.
+
+{HEADER:ENFRIAMIENTO PASIVO}
+Puedes enfriar o calentar cualquier entorno utilizando un {THING:StructurePipeRadiator} para intercambiar calor entre dos atmósferas. Un ejemplo de esto sería colocar una tubería en la pared, llenarla con gas y colocar radiadores en la tubería. Ahora las dos atmósferas de la tubería y la sala intercambiarán temperatura hasta que sus entornos se igualen.
+
+{HEADER:CALENTADOR DE PARED}
+El {THING:ItemWallHeater} es un dispositivo simple que se puede instalar en una pared o un marco y conectar a la energía. Cuando se enciende, comenzará a calentar el entorno circundante. Consume 1010W de energía y puede ser controlado por chips lógicos para funcionar cuando la temperatura alcance un nivel determinado.
+
+{HEADER:ENFRIADOR DE PARED}
+El {THING:ItemWallCooler} complementa al calentador de pared, que solo puede elevar la temperatura. El enfriador de pared funciona extrayendo calor de la atmósfera circundante y agregando ese calor a su red de tuberías. Para hacer funcionar el enfriador de pared correctamente, necesitarás conectar tuberías al enfriador de pared y llenar la red de tuberías conectada con cualquier tipo de gas. La capacidad calorífica y el volumen del gas determinarán qué tan rápido reacciona a los cambios de temperatura.
+
+Cuanto mayor sea la diferencia de temperatura entre el gas almacenado en las tuberías y la sala, menos eficiente será el enfriador de pared. Por lo tanto, para mantener el enfriador de pared funcionando a una eficiencia aceptable, tendrás que deshacerte del calor que se acumula en las tuberías conectadas a él. Una práctica común sería llevar las tuberías al exterior y usar radiadores en la sección exterior de las tuberías para deshacerse del calor.
+
+Cuanto menos eficiente sea el enfriador de pared, menos energía consumirá. Consumirá 1010W a máxima eficiencia. El enfriador de pared puede ser controlado por chips lógicos para funcionar cuando la temperatura alcance un grado determinado.
+
+Si el enfriador de pared está parpadeando con un error, entonces le falta uno de los siguientes:
+- Conexión de tubería al enfriador de pared.
+- Gas en las tuberías conectadas o la presión es demasiado baja.
+- Atmósfera en el entorno circundante o la presión es demasiado baja.
+
+{HEADER:AIRE ACONDICIONADO}
+El {THING:StructureAirConditioner} en su forma básica funciona igual que el enfriador de pared y puede beneficiarse de los mismos diseños. Sin embargo, es más potente. Enfría más rápido y usa considerablemente más energía dependiendo de la situación, por lo que es más adecuado para manejar grandes volúmenes y áreas extensas. Puede calentar o enfriar según la configuración.
+
+AIRE ACONDICIONADO: CÓMO FUNCIONA
+El aire acondicionado tiene 3 conexiones de tubería (Entrada, Salida, Desperdicio). El gas entra por el lado de entrada y, dependiendo de la configuración, se agrega o elimina calor del gas entrante y se añade a la tubería de desechos. El gas de salida saldrá a través de la conexión de salida, más frío o más caliente dependiendo de la configuración.
+Puedes conectar la tubería de entrada a las tuberías de salida (puedes ver si están conectadas si ambas tienen el mismo número de red): esto te dará más control sobre la temperatura, ya que el gas no alcanzará la temperatura objetivo después del primer paso. Tomará tiempo y energía eliminar o agregar calor a cualquier gas.
+
+La forma en que instalas y configuras tu aire acondicionado depende de lo que estés tratando de enfriar o calentar. Para una sala, necesitarás un ventilación pasiva dentro de la sala conectada a la entrada y salida del aire acondicionado, mientras que la tubería de desechos debe llenarse con un gas refrigerante.
+
+El aire acondicionado no tiene que estar dentro de la sala. La única parte de esta configuración que debe estar en la sala es la ventilación pasiva que hará circular la atmósfera de la sala hacia el aire acondicionado para ser enfriada o calentada.
+
+Puedes usar un solo aire acondicionado para hacer tanto enfriamiento como calentamiento. Solo necesitas cambiar la configuración de temperatura objetivo en el panel. Sin embargo, si deseas automatizar el enfriamiento y el calentamiento al mismo tiempo, necesitarás un aire acondicionado para enfriamiento y otro para calentamiento, ya que la configuración en el panel solo se puede cambiar manualmente.
+
+Configurar más de un aire acondicionado en la misma red de tuberías puede ser útil si necesitas que las cosas vayan más rápido o si necesitas usar algunos para calefacción y otros para enfriamiento. Haz esto conectando las entradas y salidas de los aires acondicionados juntos y haciéndolos compartir la misma red de tuberías para sus entradas y salidas. La red de tuberías de desechos también se puede compartir entre ellos, pero debe ser separada de la red de entrada/salida. La misma idea se aplica al usar el aire acondicionado para controlar la temperatura de los tanques. Sin embargo, en lugar de usar una ventilación pasiva, deberás conectar el tanque directamente al aire acondicionado.
+
+AIRE ACONDICIONADO: TEN EN CUENTA
+- Cuanto mayor sea la diferencia de temperatura entre la tubería de entrada y la tubería de desechos, más energía usará el aire acondicionado.
+- La energía consumida por el aire acondicionado puede superar los 5kW, por lo que se recomienda usar cables pesados para alimentar los aires acondicionados.
+- Ejecutar la tubería de desechos hacia el exterior y igualarla con la atmósfera exterior no siempre es la mejor opción: el gas que pongas dentro de ella puede aplicarse en otro lugar de tu base.
+
+AIRE ACONDICIONADO: CONTROL DE TEMPERATURA BÁSICO
+Hay muchas maneras de controlar la temperatura de tu base usando aires acondicionados; esta es una forma de lograrlo:
+Paso 1: Ejecuta una red de tuberías alrededor de tu base e instala ventilaciones pasivas conectadas a esta tubería en cada sala que desees controlar con esta configuración. Esta es la 'Red A'.
+Paso 2: Conecta la 'Red A' a la entrada y salida de un aire acondicionado.
+Paso 3: Conecta la tubería de desechos a una red diferente y llévala hacia el exterior. Instala radiadores en esta red.
+Esta es la configuración básica. Para automatizarlo necesitarás un analizador de tuberías en la Red A, luego lee la temperatura y ejecuta tu(s) aire acondicionado(s) en consecuencia.
+¡Buena suerte, Cadete!
+      </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>GasPage</Key>
+  <Title>Gases</Title>
+  <Text>Estos son gases químicos de ciertos tipos.{LIST_OF_GASES}
+  </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>OrePage</Key>
+  <Title>Minerales</Title>
+  <Text>Estos son artículos que pueden ser {LINK:MiningPage;minados} y a menudo pueden ser {LINK:SmeltingPage;fundidos}. También puedes obtener mineral mezclado reciclando artículos en el {THING:StructureRecycler} y luego pasándolos por el {THING:StructureCentrifuge}, que lo descompondrá en {LINK:OrePage;mineral} para {LINK:SmeltingPage;fundir}.
+Hay algunos minerales que se derriten cuando se exponen a la luz solar o al calor y producen {LINK:GasPage;gases}. Por ejemplo, {THING:ItemIce} se derrite en {GAS:Water} y {GAS:Oxygen}. Ten cuidado de mantener estos fuera del calor o la luz solar hasta que realmente quieras que se derritan.{LIST_OF_ORES}
+  </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+        <Key>GeneticsPage</Key>
+        <DisplayFilter>Guides</DisplayFilter>
+        <Title>Genética</Title>
+        <Text>Las plantas tienen un conjunto de Genes que modifican su comportamiento. Los genes de una planta serán manipulados de varias maneras, tanto naturalmente como artificialmente. Cuando una planta produce frutas o semillas, transmitirá su genética con una pequeña mutación aleatoria.
+
+Además de las mutaciones aleatorias, la condición de una planta a lo largo de su vida también puede afectar sus genes: por ejemplo, si una planta se priva de agua, aunque puede afectar la velocidad de crecimiento y el rendimiento de la planta, la descendencia recibirá genes que hacen que requiera menos agua. De esta manera, puedes manipular las condiciones ideales para tus cultivos.
+
+Hay varias herramientas que necesitarás para manejar tus cultivos de manera efectiva: {THING:ItemPlantSampler} y {THING:AppliancePlantGeneticAnalyzer}. Estas herramientas te permiten muestrear una planta en crecimiento y ver el estado de sus genes.
+
+La genética de las plantas no es una ciencia exacta y requerirá prueba y error y múltiples intentos antes de que puedas alcanzar tus objetivos. {LIST_OF_GENES} {LIST_OF_GENETIC_DEVICES}
+        </Text>
+    </StationpediaPage>
+
+<StationpediaPage>
+  <Key>IngotPage</Key>
+  <Title>Lingotes</Title>
+  <Text>Estos son artículos que generalmente se hacen a partir de {LINK:OrePage;minerales} {LINK:SmeltingPage;fundidos} para su uso en {LINK:FabricatorPage;fabricadores}.
+
+{LIST_OF_INGOTS}
+  </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>ToolPage</Key>
+  <Title>Herramientas</Title>
+  <Text>Estos son artículos que pueden encajar en una ranura de herramienta especializada y se utilizan para {LINK:ConstructionPage;Construcción} y otras tareas.
+
+{LIST_OF_TOOLS}
+  </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>ResourcePage</Key>
+  <Title>Recursos</Title>
+  <Text>Estos son artículos que se consumen durante {LINK:ConstructionPage;Construcción} y otras tareas.
+{LIST_OF_RESOURCES}
+  </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>KitPage</Key>
+  <Title>Kits</Title>
+  <Text>Estos son artículos que se consumen durante la {LINK:ConstructionPage;Construcción} y otras tareas.
+{LIST_OF_KITS}
+  </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>AutomatedRocketPage</Key>
+  <Title>Cohetes</Title>
+  <DisplayFilter>Guides</DisplayFilter>
+  <Text>
+Las partes de cohetes se imprimen en el {THING:StructureRocketManufactory}.
+
+{THING:StructureFuselageTypeA1} debe ser construido sobre un {THING:StructureLaunchMount}. Un {THING:StructureGovernedGasEngine} debe colocarse en un {THING:StructureEngineMountTypeA1}.
+
+Los umbilicales de recursos se colocan en el {THING:StructureRocketTower} y conectan entre {THING:StructureGasUmbilicalMale} y {THING:StructureGasUmbilicalFemale} colocados dentro del cohete.
+
+Un {THING:StructureComputer} con el {THING:MotherboardRockets} proporciona una interfaz de usuario para controlar el cohete.
+
+Un par de enlaces de datos se utilizan para crear un {THING:StructureLogicRocketUplink} en el lado del planeta y un {THING:StructureLogicRocketDownlink} en el lado del cohete, que deben conectarse al {THING:StructureComputer}.
+
+Un {THING:StructureRocketAvionics} debe colocarse en el cohete para actuar como el controlador principal del cohete.
+
+En la pantalla del mapa del {THING:MotherboardRockets} puedes establecer el destino del cohete.
+
+Encender el cohete sin un destino establecido te permite ver el rendimiento del cohete y el uso del combustible sin lanzar el cohete.
+
+Se espera que utilices entre 5-20Kmol de combustible por viaje en cohete, dependiendo del tamaño del cohete.
+
+Un {THING:StructureRocketScanner} se utiliza para trazar ubicaciones desconocidas y descubrir asteroides minables.
+
+Cohetes más complejos pueden usar {THING:StructureRocketMiner} y {THING:StructureCargoStorageSmall}.
+{LIST_OF_ROCKET}
+  </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>FoodPage</Key>
+  <Title>Comida</Title>
+  <Text>Estos son artículos que se consumen para proporcionar nutrición.
+    {LIST_OF_FOOD}
+  </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>ClothingPage</Key>
+  <Title>Ropa</Title>
+  <Text>Estos son artículos que pueden ser usados por entidades en ranuras.
+{LIST_OF_CLOTHING}
+  </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>AppliancePage</Key>
+  <Title>Electrodomésticos</Title>
+  <Text>Estos son artículos que se pueden colocar en bancos. Debes colocarlos en un banco sentándolos en un banco y usando una llave inglesa.
+{LIST_OF_APPLIANCES}
+  </Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>WeatherPage</Key>
+  <Title>Clima</Title>
+  <DisplayFilter>Guides</DisplayFilter>
+  <Text>Los planetas del Sistema Solar no son tan tranquilos como parecen. Después de siete días en cualquier mundo con atmósfera, las fuerzas inescrutables de la naturaleza entran en acción – golpeando a los incautos Stationeers con tormentas de nieve, tormentas de polvo y eventos volcánicos.
+Como tal, el {LINK:ODA;ODA} recomienda que los Stationeers recién desplegados creen una base hermética dentro de los 7 días posteriores al aterrizaje.
+Cualquier objeto dinámico dejado afuera en una tormenta – en Marte, Loulan, Vulcan o Europa – corre el riesgo de ser arrastrado muy lejos, incluyendo tu módulo de aterrizaje.
+Igualmente, ten en cuenta que los paneles solares son frágiles y pueden tener su cristal roto o, ocasionalmente, incluso ser destruidos por una tormenta lo suficientemente feroz. Durante las tormentas, su salida también se reduce drásticamente.
+  </Text>
+</StationpediaPage>
+
+<!-- Página añadida: CableNetworkPage -->
+<StationpediaPage>
+  <Key>CableNetworkPage</Key>
+  <Title>Redes de Cables</Title>
+  <Text>Al colocar cables con {THING:ItemCableCoil} creas redes de cables. Estas contienen memoria volátil que puede ser leída o escrita usando un {THING:ItemIntegratedCircuit10}. Esto incluye una variedad de variables lógicas especiales como {LOGICTYPE:Channel0} hasta {LOGICTYPE:Channel7}. Las redes también tienen memoria legible, que contiene una lista de todos los dispositivos de datos en la red, y se puede usar con GET para encontrar el {LOGICTYPE:ReferenceId} de ese dispositivo.
+
+Para saber la cantidad actual de dispositivos en la pila, usa la variable {LOGICTYPE:StackSize} en la red, ya que la red ajusta dinámicamente su tamaño de pila basado en los dispositivos dentro de ella. Las Redes de Cables son memoria volátil, y cambiarán su orden, contenido y datos cada vez que la red cambie - por lo que puede que necesites consultar y actualizar la información constantemente.
+
+Para acceder a esto, usa notación extra en tus referencias de dispositivos como {COLORYELLOW:d0}:{COLORYELLOW:1} para acceder a la red 1 desde el dispositivo proporcionado. Para encontrar el número de conexión, consulta la página de la stationpedia para ese dispositivo y busca el número en la sección de conexiones.
+  </Text>
+</StationpediaPage>
+    
+    <!--
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    |                     TEMPLATES               |
+    ~~~~~~~~~~~~~~~~~~~~~~~~~
+    -->
+    
+    <StationpediaPage>
+      <Key>ThingTemplate</Key>
+      <Text>{0}
+
+{HEADER:General}
+{LIST}Hash del Prefabricado {POS:300}{1}
+Pintable {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ThingThermalTemplate</Key>
+      <Text>{HEADER:Límites Térmicos}
+{LIST}Rotura {POS:300}{0}
+Punto de inflamación {POS:300}{1}
+Autoignición {POS:300}{2}{3}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>LogicTypePageTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ThingSlotHeaderTemplate</Key>
+      <Text>{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ThingSlotItemTemplate</Key>
+      <Text>{0}. {1} Tipo {2}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ThingStackTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>ThingTransmissibleTemplate</Key>
+      <Text>Se conecta a {POS:300}{THING:StructureLogicTransmitter}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ThingNutritionTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>IceMeltingTemplate</Key>
+      <Text>Temperatura de fusión {1}
+Presión de fusión {0}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>DeviceTemplate</Key>
+      <Text>{0}W</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>GasCanisterTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>AtmosphericsTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>NutritionPageTemplate</Key>
+      <Text>{0}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>CreatorsHeaderTemplate</Key>
+      <Text>{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ConstructedByHeaderTemplate</Key>
+      <Text>
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>CreatedHeaderTemplate</Key>
+      <Text>
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>ConstructedHeaderTemplate</Key>
+      <Text>
+{LIST}{0}{/LIST}</Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>LogicTransmitHeaderTemplate</Key>
+      <Text>
+        
+        {LIST}{0}{/LIST}
+      </Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>TierListHeaderTemplate</Key>
+      <Text>
+        
+      </Text>
+    </StationpediaPage>
+
+    <StationpediaPage>
+      <Key>CreatorTemplate</Key>
+      <Text>{LIST}{0}{1}{/LIST}{/LIST}</Text>
+    </StationpediaPage>
+
+<StationpediaPage>
+  <Key>LogicTypeHeaderTemplate</Key>
+  <Text>{LIST}{0}{/LIST}</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>LogicTypeTemplate</Key>
+  <Text>{0}{POS:300}{1} {2}</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>ModeStringHeaderTemplate</Key>
+  <Text>{LIST}{0}{/LIST}</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>CreatedGasesTemplate</Key>
+  <Text>
+{LIST}{0}{/LIST}</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>Lore</Key>
+  <Text></Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>Guides</Key>
+  <Text></Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>CreatedReagentTemplate</Key>
+  <Text>
+{LIST}{0}{/LIST}</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>ModeStringItemTemplate</Key>
+  <Text>{0}.{1}</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>ReagentPageTemplate</Key>
+  <Text>Un {LINK:ReagentPage;reactivo}, a menudo utilizable en forma de {LINK:IngotPage;lingotes}.
+
+
+{LIST}Unidad {1}{/LIST}
+
+
+{LIST}{2}{/LIST}</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>GasPageTemplate</Key>
+  <Text>Un {LINK:GasPage;gas}, a menudo producido al {LINK:SmeltingPage;fundir}.
+
+
+{LIST}Calor específico {1}{2}{/LIST}
+
+
+{LIST}{0}{/LIST}</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>GasPageFlamableTemplate</Key>
+  <Text>Límite inflamable {0} a {1}</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>NutritionPage</Key>
+  <Title>Hambre y nutrición</Title>
+  <DisplayFilter>Guides</DisplayFilter>
+  <Text>{HEADER:HAMBRE}
+
+Los Stationeers eventualmente tienen hambre, pero no toda la comida es igual. Además, tu tasa de hambre varía dependiendo de la configuración y la dificultad. Comer solo consumirá la parte de la comida necesaria para restaurar tu hambre al 100%.
+
+Los Stationeers reciben suministros de comida como {LINK:Agrizero;Agrizero} {THING:ItemCerealBar} en su módulo de aterrizaje al llegar a un nuevo mundo. Cuando se agoten, debes encontrar nuevas fuentes de sustento, como cultivar tus propias plantas a partir de las semillas suministradas o contactar a un {LINK:TradingPage;comerciante}.
+
+{HEADER:NUTRICIÓN}
+
+Comer ingredientes crudos satisfará menos el hambre que las comidas, es decir, reemplazará una proporción menor de tu hambre. Los elementos básicos de la comida se crean utilizando sistemas de {LINK:OrganicPage;hidroponía}. Estos pueden procesarse en ingredientes de recetas usando el {THING:ApplianceReagentProcessor}, luego transformados en comidas usando un {THING:ApplianceMicrowave} o {THING:StructureAutomatedOven}.
+
+Tu tasa de hambre se puede ajustar en el menú de configuración principal ajustando el control deslizante de Tasa de Hambre/Hidratación en la configuración. Ten en cuenta que el control deslizante de hambre también regula tu {LINK:HydrationPage;sed}.
+</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>FarmingPage</Key>
+  <Title>Cultivar Comida</Title>
+  <DisplayFilter>Guides</DisplayFilter>
+  <Text>Para sobrevivir en mundos alienígenas, la {LINK:ODA;ODA} espera que todos los {LINK:Stationeers;Stationeers} establezcan sistemas de {LINK:OrganicPage;hidroponía} viables o contacten a comerciantes de recursos locales registrados.
+
+{HEADER:CONFIGURACIÓN}
+
+Al configurar tu sistema hidroponía, necesitarás {LINK:OrganicPage;semillas}. Alternativamente, puedes plantar la comida en sí.
+
+El equipo común de hidroponía para Stationeers incluye:
+
+- {THING:DynamicHydroponics}
+- {THING:ItemHydroponicTray}
+- {THING:ItemKitHydroponicStation}
+- {THING:StructureHarvie}
+
+Todos los sistemas de hidroponía requieren agua, luz solar y la mezcla correcta de gases: las plantas requieren {GAS:CarbonDioxide} y producen oxígeno (excepto por {THING:ItemAlienMushroom}). Las plantas no crecerán en una atmósfera incorrecta. Si las plantas no tienen suficiente luz, necesitarás construir una {THING:StructureGrowLight}.
+
+Tu sistema dependerá de los recursos y el tiempo disponibles, pero un sistema de cultivo bien diseñado puede ser casi completamente automatizado dado tiempo y recursos suficientes.
+
+{HEADER:COSECHA}
+
+La mayoría de las plantas tienen varias etapas de crecimiento. Las primeras etapas son el crecimiento de la planta a lo largo de su ciclo de vida. Durante la tercera fase, se pueden cosechar semillas de la planta. En la cuarta fase, la planta producirá frutas. Después de eso, a menos que se limpie, la planta morirá.
+
+{HEADER:FERTILIZANTE}
+
+El fertilizante altera los procesos de crecimiento de las plantas y se crea con el {THING:PortableComposter} y el {THING:StructureAdvancedComposter} usando materia {LINK:OrganicPage;orgánica}.
+
+Los efectos del fertilizante dependen de sus ingredientes:
+
+- {LINK:OrganicPage;Comida} aumenta el RENDIMIENTO INDIVIDUAL DE PLANTAS hasta 3 ítems
+- {THING:DecayedFood} aumenta la VELOCIDAD DE CRECIMIENTO de las plantas hasta 3 veces
+- {THING:ItemBiomass} aumenta el NÚMERO DE CICLOS DE CRECIMIENTO para los que el fertilizante dura hasta un máximo de 5
+
+El efecto de estos ingredientes depende de sus proporciones respectivas en el compostador cuando se activa el procesamiento. El fertilizante se produce en una proporción de 1:3 de fertilizante a ingredientes. Al procesar, se libera {GAS:Nitrogen} y {GAS:Volatiles}, así como una pequeña cantidad de calor.
+</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>DecayPage</Key>
+  <Title>Deterioro de la Comida</Title>
+  <DisplayFilter>Guides</DisplayFilter>
+  <Text>La comida se descompone con el tiempo en {THING:DecayedFood}, a menos que se refrigere en una atmósfera adecuada. La velocidad exacta de descomposición varía individualmente por:
+
+- TEMPERATURA - La refrigeración ralentiza la descomposición, pero muchos alimentos se dañan por exposición a presión extremadamente baja, así como calor extremo. La temperatura óptima es 0 kelvin (-272 °C).
+
+- TIPO DE ALIMENTO - Cada tipo de {LINK:OrganicPage;alimento} tiene sus propias propiedades de descomposición. {THING:ItemTomatoSoup} dura mucho más que un {THING:ItemTomato}, por ejemplo.
+
+- PRESIÓN - La comida se descompone más rápido cuando la presión cae por debajo de 1 atmósfera (101kPa). La descomposición ocurre exponencialmente más rápido a medida que la atmósfera se acerca a un vacío perfecto. No hay efecto de presiones más altas.
+
+- ATMÓSFERA - Diferentes gases pueden ralentizar o acelerar el proceso de descomposición. El proceso tendrá en cuenta las proporciones de gases respectivas en atmósferas mezcladas para calcular el modificador de descomposición. Las siguientes tasas se aplican a todos los alimentos:
+
+> {GAS:Oxygen} x 1.3
+> {GAS:Nitrogen} x 0.6
+> {GAS:CarbonDioxide} x 0.8
+> {GAS:Volatiles} x 1
+> {GAS:Pollutant} x 3
+> {GAS:NitrousOxide} x 1.5
+> {GAS:Water} x 2
+> Vacío - ver PRESIÓN (arriba).
+</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>HydrationPage</Key>
+  <Title>Sed + Hidratación</Title>
+  <DisplayFilter>Guides</DisplayFilter>
+  <Text>Tu Stationeer promedio necesita beber agua regularmente. Sin embargo, regulaciones de salud y seguridad {LINK:ODA;ODA} arcanas y posiblemente erróneas han negado durante mucho tiempo a los Stationeers el derecho a mecanismos de hidratación en el traje. En su lugar, deben tomar descansos regulares para abrir el casco e ingerir agua. Hacerlo en un entorno no presurizado no es aconsejable.
+
+¿Qué tan a menudo beber? Esto se determina por tu nivel de dificultad, el calor del planeta y cuánto te gusta mover tu cuerpo.
+
+El agua viene en muchas formas. Al menos un {THING:ItemWaterBottle} se suministra a los Stationeers como parte de sus raciones al aterrizar en nuevos planetas, con más en las cajas de tu módulo de aterrizaje. Estos se pueden rellenar usando un {THING:ItemWaterBottleFiller}, que debe estar conectado a una red de tuberías líquidas. La red en sí se puede llenar usando un {THING:StructureIceCrusher} con un suministro adecuado de hielo.
+
+Tu tasa de sed se puede ajustar en el menú de configuración principal ajustando el control deslizante de Hambre/Hidratación.
+</Text>
+</StationpediaPage>
+
+<StationpediaPage>
+  <Key>EVAPage</Key>
+  <Title>Trajes EVA</Title>
+  <DisplayFilter>Guides</DisplayFilter>
+  <Text>Tu traje espacial te proporciona una atmósfera portátil, con configuraciones ajustables de presión y aire acondicionado (temperatura), así como un sistema de advertencia que te alertará si la atmósfera dentro del traje se vuelve peligrosa. Funciona en conjunto con un casco adecuado para funcionar correctamente, así como con cartuchos de gas y filtros adecuados en los varios compartimentos del traje. Estos deberán ser cambiados regularmente y también se pueden recargar (o vaciar) usando un {THING:StructureSuitStorage}.
+
+Hay varios trajes, incluyendo el {THING:ItemEvaSuit} y el más resistente a la presión y temperatura {THING:ItemHardSuit}.
+
+Los diversos indicadores de tu traje están en la parte inferior derecha de la pantalla. Presionar la tecla numérica apropiada (2) mostrará un panel con sus compartimentos y configuraciones. Estos incluyen:
+
+- A/C Encendido / Apagado (es decir, Control de temperatura encendido/apagado)
+- Filtros Encendidos / Apagados
+- Aire Encendido / Apagado
+- Presión Arriba / Abajo (con un rango de 0kPA a 202kPa, o 0-2 atmósferas terrestres)
+- Temperatura Arriba / Abajo (con un rango de 0°C a 60°C)
+
+Los trajes contienen de 6 a 8 compartimentos:
+- Tanque de aire (x1) - inserta un cartucho o cartucho inteligente que contenga una mezcla de gas respirable, p. ej., {GAS:Oxygen} o {GAS:Nitrogen}/{GAS:Oxygen} 35/65.
+- Tanque de desechos (x1) - recoge los gases eliminados por los filtros
+- Soporte vital (x1) - contiene una batería, que alimenta tu A/C, luces, etc.
+- {SLOT:GasFilter} (x3) - requiere al menos un {THING:ItemGasFilterCarbonDioxide} (si eres humano), dependiendo de tu mezcla de gases respirables. Ten en cuenta que un {THING:ItemHardSuit} tiene 4 compartimentos para filtros.
+- IC - solo {THING:ItemHardSuit}.
+
+Presión: debe ajustarse a 50-100 KPa (0.5 a 1 atmósfera terrestre). Los humanos en el juego toleran hasta ~250kPa y pueden sobrevivir hasta ~300kPA.
+
+Temperatura: normalmente ajustada a 18-21°C, con humanos en el juego prefiriendo 10-29°C, tolerando 0-39°C y sobreviviendo hasta aproximadamente 49°C. A temperaturas más altas, tu A/C consumirá más batería para mantener la temperatura interna.
+
+Filtros: el filtro por defecto es el filtro de {GAS:CarbonDioxide}, que captura el gas generado por los humanos al exhalar. Si no estás usando 100% {GAS:Oxygen} en tu gas respirable, agrega filtros adicionales, por ejemplo, si mezclas 25% {GAS:Oxygen} + 75% {GAS:Nitrogen}, el nitrógeno se acumulará en tu traje con el tiempo y te asfixiará, a menos que tengas un filtro de nitrógeno. Si tienes los filtros y el gas respirable correctos, pero aún experimentas problemas, usa la función 'Flush' en tu casco espacial. Las advertencias de oxígeno bajo/crítico sonarán a medida que los filtros dejen de funcionar.
+
+Si se daña, tu traje se puede reparar sosteniendo cinta adhesiva en la mano y usando el botón 'activar'.
+</Text>
+</StationpediaPage>
+
+  </HelpPage>
+</Language>
