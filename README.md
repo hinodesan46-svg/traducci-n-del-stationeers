@@ -1,2 +1,2 @@
-# traducci-n-del-stationeers
+# traducción-del-stationeers
 traducción del stationeers
